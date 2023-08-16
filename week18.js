@@ -1,4 +1,3 @@
-console.log(window.localStorage);
 //Задание 1
 //Создайте функцию makeOne которая записывает в Local Storage ключ games со значением 11. Вызывается функция по кнопке Задание 1.
 
