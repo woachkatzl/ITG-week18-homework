@@ -349,7 +349,6 @@ const addToNumbers = () => {
 	numberInput.value = null;
 
 	window.localStorage.setItem("task19", JSON.stringify(numbers));
-	console.log(localStorage);
 };
 
 document.querySelector('.b-19').addEventListener('click', addToNumbers); //если нажать на кнопке трижды, в локальном хранилище под ключем task19 будет сохранён массив с тремя числами.
@@ -364,7 +363,6 @@ const removeLastElement = () => {
 
 		numbers.pop();
 		window.localStorage.setItem("task19", JSON.stringify(numbers));
-		console.log(localStorage);
 	} else {
 		console.log('Массив numbers пуст.');
 	}
